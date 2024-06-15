@@ -21,6 +21,11 @@ window.addEventListener('scroll', function () {
     }
 });
 
+const mailBtn = document.getElementById("mail-btn");
+
+document.addEventListener("click",(e)=>{
+    e.preventDefault();
+})
 
 document.addEventListener("DOMContentLoaded", function () {
     const carousel = document.querySelector(".carousel");
