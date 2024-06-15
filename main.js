@@ -23,7 +23,7 @@ window.addEventListener('scroll', function () {
 
 const mailBtn = document.getElementById("send-btn");
 
-document.addEventListener("click",(e)=>{
+mailBtn.addEventListener("click",(e)=>{
     e.preventDefault();
 })
 
