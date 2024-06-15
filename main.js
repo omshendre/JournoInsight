@@ -21,7 +21,7 @@ window.addEventListener('scroll', function () {
     }
 });
 
-const mailBtn = document.getElementById("mail-btn");
+const mailBtn = document.getElementById("send-btn");
 
 document.addEventListener("click",(e)=>{
     e.preventDefault();
